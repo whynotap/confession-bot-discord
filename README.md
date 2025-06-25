@@ -6,11 +6,8 @@
 
 ## 🔧 Fonctionnalités
 
-- 💌 Envoi anonyme de confessions via messages privés (DM)
-- 📰 Publication automatique dans un canal spécifique du serveur
+- 💌 Envoi anonyme de confessions via un salon textuel
 - 🔒 Anonymat garanti (aucune trace d’identité de l’auteur)
-- 📁 **Système de logs configurable** pour suivre les erreurs ou activités (facultatif)
-- 🧼 Filtrage de contenu (optionnel)
 - 🛠️ Facile à configurer et à déployer
 
 ---
@@ -31,5 +28,5 @@
    git clone https://github.com/whynotap/confession-bot-discord.git
    cd confession-bot-discord
    npm install
-   TOKEN=TOKEN_DE_TON_BOT_DISCORD
+   token=TOKEN_DE_TON_BOT_DISCORD (config.js)
    node index.js
