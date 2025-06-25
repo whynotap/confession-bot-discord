@@ -29,4 +29,4 @@
    cd confession-bot-discord
    npm install
    token=TOKEN_DE_TON_BOT_DISCORD (config.js)
-   node index.js
+   npm start
